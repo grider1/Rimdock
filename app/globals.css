@@ -14,8 +14,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: white;
+    /*--background: #5FAD41;*/
+    --foreground: black;
   }
 }
 
@@ -23,4 +24,51 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+
+header {
+  border-bottom: 2px solid var(--foreground);
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  /*background: #6DBC4E;*/
+  background: lightgray;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.buy-button {
+  background-color: rgb(83, 88, 208);
+  border-radius: 5px;
+  color: white;
+}
+
+.header-nav {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.shop-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
