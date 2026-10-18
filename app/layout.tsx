@@ -26,7 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="bg-[#358600] min-h-full flex flex-col">
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );

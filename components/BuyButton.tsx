@@ -6,6 +6,6 @@ function handleClick() {
 
 export default function BuyButton() {
     return (
-        <button onClick={handleClick} className="buy-button">Buy Now</button>
+        <button onClick={handleClick} className="buy-button">buy</button>
     )
 }

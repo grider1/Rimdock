@@ -6,10 +6,10 @@ const example_products: product[] = [
   {
     name: "Coffee and Eggs",
     price: 20.00,
-    image: "/coffee_and_eggs.jpg",
+    image: "/coffee_eggs.jpg",
   },
   {
-    name: "Coffee and Eggs",
+    name: "Moondog",
     price: 20.00,
     image: "/moondog.jpg",
   },
@@ -17,13 +17,10 @@ const example_products: product[] = [
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-4xl">Welcome to the Rimdock Website</h1>
       <ShopView
         items={
           example_products
         }
       />  
-    </main>
   );
 }

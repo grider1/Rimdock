@@ -1,5 +1,5 @@
 import type { product } from "@/app/lib/definitions.ts";
-import ShopItem from "@/components/ShopItem";
+import ShopItem from "@/components/Item";
 
 
 type ShopViewProps = {
@@ -15,7 +15,6 @@ export default function ShopView({ items }: ShopViewProps) {
                         key={index}
                         name={item.name}
                         image={item.image}
-                        price={item.price}
                     />
                 ))}
             </div>

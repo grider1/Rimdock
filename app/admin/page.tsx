@@ -1,14 +1,11 @@
 import Order from "@/components/Order";
+import AddShopItem from "@/components/AddShopItem";
+import AdminHeader from "@/components/AdminHeader";
 
-export default function Page() {
+export default function Admin() {
     return (
-        <div>
-            <h1> ADMIN </h1>
-            <div className="order-view">
-                <ul>
-                    <Order id="1" address="123 Main St" name="John Doe" amount={100.00} />
-                </ul>
-            </div>
+        <div className="admin-page">
+            <AdminHeader></AdminHeader>
         </div>
     )
 }
