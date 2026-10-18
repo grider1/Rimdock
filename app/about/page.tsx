@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function Page() {
+export default function About() {
     return (
         <div>
             <Image src="/ridge_comic_hero.jpg" width={400} height={650} alt="Ridge holding up the coffee and eggs comic" />

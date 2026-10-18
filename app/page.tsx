@@ -6,12 +6,12 @@ const example_products: product[] = [
   {
     name: "Coffee and Eggs",
     price: 20.00,
-    image: "/coffee_eggs_cover.jpg",
+    image: "/coffee_and_eggs.jpg",
   },
   {
     name: "Coffee and Eggs",
     price: 20.00,
-    image: "/coffee_eggs_cover.jpg",
+    image: "/moondog.jpg",
   },
 ]; 
 
